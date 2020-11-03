@@ -1,0 +1,39 @@
+body{
+    background-color: #ffffff;              
+    font-family: system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 800px;               }
+  
+label{
+   width:100px;
+   display:inline-block;            }
+
+
+form{
+  display: block;
+   margin-top:0em;                  }
+
+
+input[type=button] 
+{ 
+    color:#fff; background-color:rgb(177, 122, 169);   
+ }
+
+ #error{
+   border : 1px outset #c22535;
+   background-color : rgb(221, 172, 116);
+   padding : 5px  ;
+   display : none;
+}
+
+ #resultat{
+    color : rgb(218, 197, 211);
+    background-color : rgb(111, 204, 151);
+    padding : 5px;
+    display : none;
+ }
+  
+ .display{
+    display: block!important;
+ }
